@@ -1,0 +1,20 @@
+*{
+    font-family: didot;
+}
+
+a.button_styling_interior{
+    background-color: white;
+    border-radius: 1%;
+    padding: 2px;
+    text-decoration: none;
+    color: red;
+    border: 3px solid black;
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
