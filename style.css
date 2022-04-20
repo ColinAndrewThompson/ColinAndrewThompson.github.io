@@ -1,5 +1,6 @@
 body {
     font-family: didot;
+    background-color: beige;
 }
 
 h1{
@@ -16,6 +17,7 @@ h3{
 #headshot{
     display: block;margin: 0 auto;
     border: 3px solid darkolivegreen;
+    border-radius: 100%;
 }
 #linksToSites{
     text-align: center;
@@ -25,4 +27,35 @@ h3{
 #linksToSites > a{
     margin: 4px;
     display: inline-block;
+}
+#aboutMe{
+    margin: 10px 15%;
+    text-align: center;
+    background-color: #999900;
+    padding: 4px;
+    border-radius: 6px;
+}
+a{
+    font-style: italic;
+}
+#resume{
+    text-align: center;
+    
+}
+a.button_styling_interior{
+    background-color: white;
+    border-radius: 1%;
+    padding: 2px;
+    text-decoration: none;
+    color: red;
+    border: 3px solid black;
+    
+}
+div.button_styling_surrounding_supreme{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    
 }
